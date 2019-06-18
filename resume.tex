@@ -1,0 +1,217 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeExtendedSubheading}[2]{
+  \vspace{-1pt}
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://lego1st.github.io/}{\Large Nguyen Trung Nghia}} & Email : \href{mailto:nguyentrungnghia1812@gmail.com}{nguyentrungnghia1812@gmail.com}\\
+  \href{}{} & Mobile : +(84)393530097 \\
+\end{tabular*}
+
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{}{Algorithms skill, Solving Problems, Competitive Programming, Machine Learning, Deep Learning}
+    \item{}{Teamwork (project leader at InfoRe Technology)}
+    \item
+      \textbf{Languages}{: Python, Javascript, C++, Java, Solidity, SQL}
+    \item
+      \textbf{Technologies}{: React, React Native, Django, Django REST, Flask, Tensorflow, Pytorch, Keras, Chainer, Enthereum}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {VNU, University of Engineering and Technology}{Hanoi, VN}
+      {Bachelor of Computer Science;  GPA: 3.48}{Sep. 2015 -- Jul. 2019}
+  \resumeSubHeadingListEnd
+
+%-----------HONORS AND AWARDS-----------------
+\section{Honors and Awards}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+    	{Runner-up - VPBank Hackathon AI}{Hanoi, VN}
+    	{VPBank and UP Co-working Space}{Jul 2018}
+    	\resumeItemListStart
+      	\resumeItem{Description}
+      	{Introduce a voice assistant, Stifr, that automatically answer and provide some basic bank services from customer service. This application is associated with NLP and Speech Recognition.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Third prize - Oxfam Datalab Hackathon in Vietnam}{Hanoi, VN}
+      {Oxfarm and Microsoft}{Dec 2017}
+      \resumeItemListStart
+        \resumeItem{Description}
+          {In 48 hours, a data-driven tool is developed to help Hanoi Citizens better prepare for floods}
+      \resumeItemListEnd
+     
+    \resumeSubheading
+      {Best AI model - AI Edtech Asia Hackathon}{Hanoi, VN}
+      {Topica AI Lab, Topica Edtech Lab}{May 2017}
+      \resumeItemListStart
+        \resumeItem{Description}
+        {Introduce a Optical Character Recognition system that recognize text from a captured photos of book using Convolution Neural Network and many Image Processing techniques}
+      \resumeItemListEnd
+   
+    \resumeSubheading
+      {Winner - CodeWar}{Hanoi, VN}
+      {Framgia, VN}{Apr 2017}
+      \resumeItemListStart
+        \resumeItem{Description}
+        {Take response mainly in ACM and AI tasks in my team. The contest was organized by Framgia, contestants have to solve ACM, CTF problems and build an AI bot to play game with other teams.}
+      \resumeItemListEnd  
+     
+    \resumeSubheading
+      {Third prize - Vietnam National Olympiad in Informatics}{Hanoi, VN}
+      {Vietnam National Olympiad in Informatics}{Feb 2014}
+      \resumeItemListStart
+        \resumeItem{Description}
+        {Complete individually to solve algorithm problems in 3 hours in 2 days. The contest was organized annually for high school students with around 400 competitors.}
+      \resumeItemListEnd
+        Programming 
+  \resumeSubHeadingListEnd
+      
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {InfoRe Technology}{Hanoi, VN}
+      {Machine Learning Engineer}{Mar 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Visiai - People counting}
+          {Provide AI solution which utilizes the current camera system to compute statistical numbers containing helpful information for small and medium stores in Vietnam.}
+        \resumeItem{Topic modeling}
+          {Categorize Facebook's trend posts using Natural Language Processing techniques}
+        \resumeItem{Sentiment analysis}
+          {Create models for sentiment analysis module (smcc.vn) that analysis millions of data a day.}
+        \resumeItem{Vietnamese Newspaper Digitalization}
+          {Build a system that automatically crawl different types of Vietnamese newspapers from the Internet before detecting and recognizing text from them.}
+      \resumeItemListEnd
+      
+      \resumeExtendedSubheading
+      {Software Engineer (Intern)}{Sep 2016 - Mar 2017}
+      \resumeItemListStart
+        \resumeItem{SMCC mobile version}
+          {Worked on the mobile version of smcc.vn, using Android Studio and React Native.}
+        \resumeItem{Social Media Common Center}
+          {Worked on APIs and additional tools for data crawling, data analysis.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {University of Engineering and Technology}{Hanoi, VN}
+      {Research}{Sep 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Image Quality Assessment}
+        {Research on Deep learning for Image Quality Assessment. Developed the Neural Network with patch-based approach for subjective assessment dataset.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Math and Science Summer Program, MaSSP}{Hanoi, VN}
+      {Mentor of Computer Science}{Jan 2017 - Jul 2017}
+      \resumeItemListStart
+        \resumeItem{Tensorflow course:}
+        {Work as mentor of Math and Science Summer Program, tutor Vietnamese high school students, especially those from underprivileged backgrounds, with opportunities to explore applications of Deep learning.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+%\section{Projects}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{QuantSoftware Toolkit}
+%      {Open source python library for financial data analysis and machine learning for finance.}
+%    \resumeSubItem{Github Visualization}
+%      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%    \resumeSubItem{Recommendation System}
+%      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%    \resumeSubItem{Mac Setup}
+%      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
