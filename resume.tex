@@ -57,6 +57,13 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeSubheadingTwo}[2]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 
+	\end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeExtendedSubheading}[2]{
   \vspace{-1pt}
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -94,9 +101,11 @@
 	{Computer Vision Researcher, Medical Imaging}{June 2019 - Now}
 	\resumeItemListStart
 		\resumeItem{VinDoc - AI Assistant for Doctor}
-		{Built a web-based application which contains 6 AI medical imaging modules using React, Flask and Pytorch. The application help doctor diagnosing on different types of disease using X-ray, CT images.}
+		{Built a web-based application which contains 6 AI medical imaging modules. The application help doctor diagnosing on different types of disease using X-ray, CT images.}
 		\resumeItem{Lung Cancer Detection}
 		{Developed the algorithms that accurately determine when lesions in the lungs are cancerous.}
+		\resumeItem{}
+		{Language/Technology: Python, Javascript, Flask, Pytorch, React.}
 	\resumeItemListEnd
 
 	\resumeSubheading
@@ -108,33 +117,37 @@
 		\resumeItem{Topic modeling}
 		{Categorized Facebook's trend posts using Natural Language Processing techniques}
 		\resumeItem{Sentiment analysis}
-		{Developed models for sentiment analysis module (smcc.vn) that analysis millions of data a day.}
+		{Developed models for sentiment module (smcc.vn) that analyzes millions of data a day.}\\
+		\resumeItem{}
+		{Language/Technology: Python, Flask, RabbitMQ, Redis, Fasttext.}
 	\resumeItemListEnd
 
 	\resumeExtendedSubheading
 	{Software Engineer (Intern)}{Sep 2016 - Mar 2017}
 	\resumeItemListStart
 		\resumeItem{SMCC mobile version}
-		{Worked on the mobile version of smcc.vn, using Android Studio and React Native.}
+		{Worked on the mobile version of smcc.vn.}
 		\resumeItem{Social Media Common Center}
 		{Worked on APIs and additional tools for data crawling, data analysis.}
+		\resumeItem{}
+		{Language/Technology: C\#, Java, Python, Android Studio, React Native.}
 	\resumeItemListEnd
 
-	\resumeSubheading
-	{University of Engineering and Technology}{Hanoi, VN}
-	{Research}{Sep 2017 - Present}
-	\resumeItemListStart
-		\resumeItem{Image Quality Assessment}
-		{Researched on Deep learning for Image Quality Assessment.}
-	\resumeItemListEnd
-
-	\resumeSubheading
-	{Math and Science Summer Program, MaSSP}{Hanoi, VN}
-	{Mentor of Computer Science}{Jan 2017 - Jul 2017}
-	\resumeItemListStart
-		\resumeItem{Tensorflow course:}
-		{Worked as mentor of Math and Science Summer Program, tutor Vietnamese high school students, especially those from underprivileged backgrounds, with opportunities to explore applications of Deep learning.}
-	\resumeItemListEnd
+%	\resumeSubheading
+%	{University of Engineering and Technology}{Hanoi, VN}
+%	{Research}{Sep 2017 - Present}
+%	\resumeItemListStart
+%		\resumeItem{Image Quality Assessment}
+%		{Researched on Deep learning for Image Quality Assessment.}
+%	\resumeItemListEnd
+%
+%	\resumeSubheading
+%	{Math and Science Summer Program, MaSSP}{Hanoi, VN}
+%	{Mentor of Computer Science}{Jan 2017 - Jul 2017}
+%	\resumeItemListStart
+%		\resumeItem{Tensorflow course:}
+%		{Worked as mentor of Math and Science Summer Program, tutor Vietnamese high school students, especially those from underprivileged backgrounds, with opportunities to explore applications of Deep learning.}
+%	\resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
@@ -142,71 +155,57 @@
 \section{Honors and Awards}
   \resumeSubHeadingListStart
   
-   \resumeSubheading
-	  	{Ranked 13th in RSNA Intracranial Hemorrhage Detection}{Kaggle}
-	  	{Radiological Society of North America}{Oct 2019}
+   \resumeSubheadingTwo
+	  	{Ranked 13th in RSNA Intracranial Hemorrhage Detection}{Oct 2019}
 	  	\resumeItemListStart
-	  	\resumeItem{}
-	  	{Achieved 13th out of 1345 teams (top 1\%).}
 		\resumeItem{}
-		{Built an end-to-end neural network that combines a Convolutional Neural Network with a Long Short-term Memory mechanism for accurate prediction of intracranial hemorrhage on Computed Tomography scans.}
+		{Built an end-to-end neural network that combines Convolutional Neural Networks with a Long Short-term Memory mechanism for accurate prediction of intracranial hemorrhage on Computed Tomography scans. Achieved 13th out of 1345 teams (top 1\%).}
 	  	\resumeItemListEnd
 	  
-   \resumeSubheading
-		{Ranked 18th in Recursion Cellular Image Classification}{Kaggle}
-		{Recursion Pharmaceuticals}{Aug 2019}
+   \resumeSubheadingTwo
+		{Ranked 18th in Recursion Cellular Image Classification}{Aug 2019}
 		\resumeItemListStart
 		\resumeItem{}
-		{Took 18th place out of 866 teams (top 3\%).}
-		\resumeItem{}
-		{Proposed a solution that trains a Convolutional Neural Network to disentangle biological signal and apply the Hungarian algorithm to solve Linear Assignment Problem for the top performance on leaderboard.}
+		{Proposed a solution that trains Convolutional Neural Networks to disentangle biological signal and apply the Hungarian algorithm to solve Linear Assignment Problem for the top performance at 18th place out of 866 teams (top 3\%).}
 		\resumeItemListEnd 	  
 		
-   \resumeSubheading
-		{Top 4\% in SIIM-ACR Pneumothorax Segmentation}{Kaggle}
-		{Society for Imaging Informatics in Medicine (SIIM)}{Aug 2019}
+   \resumeSubheadingTwo
+		{Top 4\% in SIIM-ACR Pneumothorax Segmentation}{Aug 2019}
 		\resumeItemListStart
-		\resumeItem{Description}
-		{Achieved 57th place out of 1475 participating teams (top 4\%).}
 		\resumeItem{} 
-		{Built a 2-stage pipe that contains a segmentation network, follow up with a classifier to identify Pneumothorax disease in Chest X-ray Images.}
+		{Built a 2-stage pipeline that contains a segmentation network, follow up with a classifier to identify Pneumothorax disease in Chest X-ray Images. Achieved 57th place out of 1475 participating teams (top 4\%).}
 		\resumeItemListEnd 	
 		
-    \resumeSubheading
-    	{Runner-up - VPBank Hackathon AI}{Hanoi, VN}
-    	{VPBank and UP Co-working Space}{Jul 2018}
+    \resumeSubheadingTwo
+    	{Runner-up - VPBank Hackathon AI}{Jul 2018}
     	\resumeItemListStart
       	\resumeItem{Description}
       	{Built a voice assistant, Stifr, that automatically answer and provide some basic bank services from customer service. This application is associated with NLP and Speech Recognition.}
       \resumeItemListEnd
       
-    \resumeSubheading
-      {Third prize - Oxfam Datalab Hackathon in Vietnam}{Hanoi, VN}
-      {Oxfarm and Microsoft}{Dec 2017}
+    \resumeSubheadingTwo
+      {Third prize - Oxfam Datalab Hackathon in Vietnam}{Dec 2017}
       \resumeItemListStart
         \resumeItem{Description}
           {Developed a data-driven tool to help Hanoi Citizens better prepare for floods in 48 hours.}
       \resumeItemListEnd
      
-    \resumeSubheading
-      {Best AI model - AI Edtech Asia Hackathon}{Hanoi, VN}
-      {Topica AI Lab, Topica Edtech Lab}{May 2017}
+    \resumeSubheadingTwo
+      {Best AI model - AI Edtech Asia Hackathon}{May 2017}
       \resumeItemListStart
         \resumeItem{Description}
-        {Developed a Optical Character Recognition system that recognize text from a captured photos of book with Convolution Neural Network and Image Processing.}
+        {Developed an Optical Character Recognition system that recognize text from captured photos of book with Convolutional Neural Network and Image Processing.}
       \resumeItemListEnd
    
-    \resumeSubheading
-      {Winner - CodeWar}{Hanoi, VN}
-      {Framgia, VN}{Apr 2017}
+    \resumeSubheadingTwo
+      {Winner - CodeWar}{Apr 2017}
       \resumeItemListStart
         \resumeItem{Description}
         {Took response mainly in ACM and AI tasks in my team. The contest was organized by Framgia, contestants have to solve ACM, CTF problems and build an AI bot to play game with other teams.}
       \resumeItemListEnd  
      
-    \resumeSubheading
-      {Third prize - Vietnam National Olympiad in Informatics}{Hanoi, VN}
-      {Vietnam National Olympiad in Informatics}{Feb 2014}
+    \resumeSubheadingTwo
+      {Third prize - Vietnam National Olympiad in Informatics}{Feb 2014}
       \resumeItemListStart
         \resumeItem{Description}
         {Completed individually to solve algorithm problems in 3 hours in 2 days. The contest was organized annually for high school students with around 400 competitors.}
@@ -224,15 +223,15 @@
 
 
 %--------SKILLS------------
-\section{Skills}
-	\resumeSubHeadingListStart
-		\item{}{Algorithms skill, Solving Problems, Competitive Programming, Machine Learning, Deep Learning}
-		\item{}{Teamwork (project leader at InfoRe Technology)}
-		\item
-		\textbf{Languages}{: Python, Javascript, C++, Java, Solidity, SQL}
-		\item
-		\textbf{Technologies}{: Tensorflow, Pytorch, Keras, Chainer, Enthereum, React, React Native, Django, Django REST, Flask}
-	\resumeSubHeadingListEnd
+%\section{Skills}
+%	\resumeSubHeadingListStart
+%		\item{}{Algorithms skill, Solving Problems, Competitive Programming, Machine Learning, Deep Learning}
+%		\item{}{Teamwork (project leader at InfoRe Technology)}
+%		\item
+%		\textbf{Languages}{: Python, Javascript, C++, Java, Solidity, SQL}
+%		\item
+%		\textbf{Technologies}{: Tensorflow, Pytorch, Keras, Chainer, Enthereum, React, React Native, Django, Django REST, Flask}
+%	\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 %\section{Projects}
